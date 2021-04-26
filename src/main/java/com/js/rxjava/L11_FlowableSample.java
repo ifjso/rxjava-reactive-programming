@@ -54,6 +54,5 @@ public class L11_FlowableSample {
                 });
 
         Thread.sleep(500L);
-
     }
 }
