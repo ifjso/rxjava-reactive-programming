@@ -1,4 +1,4 @@
-package com.js.rxjava;
+package com.js.rxjava.chapter1;
 
 import io.reactivex.Single;
 import io.reactivex.SingleObserver;

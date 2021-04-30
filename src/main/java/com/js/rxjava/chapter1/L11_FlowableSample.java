@@ -1,4 +1,4 @@
-package com.js.rxjava;
+package com.js.rxjava.chapter1;
 
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
