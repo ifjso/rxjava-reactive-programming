@@ -1,17 +1,18 @@
-package com.js.rxjava.chapter4;
+package com.js.rxjava.chapter4.skip;
 
+import com.js.rxjava.chapter4.DebugSubscriber;
 import io.reactivex.Flowable;
 
 import java.util.concurrent.TimeUnit;
 
-public class TakeSample {
+public class SkipSample {
 
     public static void main(String[] args) throws InterruptedException {
         Flowable<Long> flowable = Flowable.interval(1000L, TimeUnit.MILLISECONDS)
-                .take(3);
+                .skip(2);
 
         flowable.subscribe(new DebugSubscriber<>());
 
-        Thread.sleep(4000L);
+        Thread.sleep(5000L);
     }
 }

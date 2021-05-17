@@ -1,5 +1,6 @@
-package com.js.rxjava.chapter4;
+package com.js.rxjava.chapter4.flatmap;
 
+import com.js.rxjava.chapter4.DebugSubscriber;
 import io.reactivex.Flowable;
 
 public class FlatMapSample3 {

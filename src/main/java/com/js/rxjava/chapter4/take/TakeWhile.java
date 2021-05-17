@@ -1,14 +1,15 @@
-package com.js.rxjava.chapter4;
+package com.js.rxjava.chapter4.take;
 
+import com.js.rxjava.chapter4.DebugSubscriber;
 import io.reactivex.Flowable;
 
 import java.util.concurrent.TimeUnit;
 
-public class SkipUntilSample {
+public class TakeWhile {
 
     public static void main(String[] args) throws InterruptedException {
         Flowable<Long> flowable = Flowable.interval(300L, TimeUnit.MILLISECONDS)
-                .skipUntil(Flowable.timer(1000L, TimeUnit.MILLISECONDS));
+                .takeWhile(data -> data != 3);
 
         flowable.subscribe(new DebugSubscriber<>());
 

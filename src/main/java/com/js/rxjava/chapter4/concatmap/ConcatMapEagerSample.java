@@ -1,14 +1,15 @@
-package com.js.rxjava.chapter4;
+package com.js.rxjava.chapter4.concatmap;
 
+import com.js.rxjava.chapter4.DebugSubscriber;
 import io.reactivex.Flowable;
 
 import java.util.concurrent.TimeUnit;
 
-public class ConcatMapSample {
+public class ConcatMapEagerSample {
 
     public static void main(String[] args) throws InterruptedException {
         Flowable<String> flowable = Flowable.range(10, 3)
-                .concatMap(
+                .concatMapEager(
                         sourceData -> Flowable.interval(500L, TimeUnit.MILLISECONDS)
                                 .take(2)
                                 .map(data -> {

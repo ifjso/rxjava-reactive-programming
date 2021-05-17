@@ -1,5 +1,6 @@
-package com.js.rxjava.chapter4;
+package com.js.rxjava.chapter4.take;
 
+import com.js.rxjava.chapter4.DebugSubscriber;
 import io.reactivex.Flowable;
 
 import java.util.concurrent.TimeUnit;
