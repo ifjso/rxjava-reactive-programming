@@ -1,5 +1,6 @@
 package com.js.rxjava.chapter4;
 
+import com.js.rxjava.DebugMaybeObserver;
 import io.reactivex.Flowable;
 import io.reactivex.Maybe;
 

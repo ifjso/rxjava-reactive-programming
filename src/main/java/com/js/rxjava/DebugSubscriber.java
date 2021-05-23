@@ -1,4 +1,4 @@
-package com.js.rxjava.chapter4;
+package com.js.rxjava;
 
 import io.reactivex.subscribers.DisposableSubscriber;
 

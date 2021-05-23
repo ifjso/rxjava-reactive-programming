@@ -1,6 +1,6 @@
 package com.js.rxjava.chapter4.distinct;
 
-import com.js.rxjava.chapter4.DebugSubscriber;
+import com.js.rxjava.DebugSubscriber;
 import io.reactivex.Flowable;
 
 import java.math.BigDecimal;

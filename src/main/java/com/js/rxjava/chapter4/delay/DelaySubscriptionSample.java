@@ -1,6 +1,6 @@
 package com.js.rxjava.chapter4.delay;
 
-import com.js.rxjava.chapter4.DebugSubscriber;
+import com.js.rxjava.DebugSubscriber;
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
 

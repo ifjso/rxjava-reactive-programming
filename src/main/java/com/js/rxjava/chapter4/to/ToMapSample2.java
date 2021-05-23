@@ -1,6 +1,6 @@
 package com.js.rxjava.chapter4.to;
 
-import com.js.rxjava.chapter4.DebugSingleObserver;
+import com.js.rxjava.DebugSingleObserver;
 import io.reactivex.Flowable;
 import io.reactivex.Single;
 
